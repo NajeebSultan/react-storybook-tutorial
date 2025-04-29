@@ -9,6 +9,14 @@ buttonText: string;
 
 const meta : Meta<StoryProps> = {
   component: Button,
+  argTypes: {
+    variant:{
+      options:['primary', 'secondary'],
+      control:{
+        type : 'select',
+      }
+    }
+  },
 };
 
 export default meta;
