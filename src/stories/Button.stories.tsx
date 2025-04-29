@@ -1,4 +1,5 @@
 import {Meta , StoryObj} from '@storybook/react';
+import {fn} from '@storybook/test'
 import {Button} from '@/components/Button';
 import {ComponentProps} from 'react';
 
@@ -23,6 +24,9 @@ const meta : Meta<StoryProps> = {
       },
     }
   },
+  args:{
+    onClick: fn (),
+  }
 };
 
 export default meta;
@@ -40,3 +44,19 @@ export const Primary: Story = {
     return <Button {...args}>{buttonText}</Button>;
   },
 }
+
+
+
+export const Secondary: Story = {
+  args:
+  {
+    buttonText: "Hello",
+    variant: 'primary',
+    size: 'md',
+
+  },
+  render: ({buttonText, ...args}) => {
+    return <Button {...args}>{buttonText}</Button>;
+  },
+}
+
