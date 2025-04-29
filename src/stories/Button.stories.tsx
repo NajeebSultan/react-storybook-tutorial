@@ -15,11 +15,12 @@ type Story = StoryObj<StoryProps>
 export const Primary: Story = {
   args:
   {
+    children: 'Test',
     variant: 'primary',
     size: 'md',
 
   },
   render: (args) => {
-    return <Button{...args}>Test</Button>;
-  }
+    return <Button{...args} />;
+  },
 }
