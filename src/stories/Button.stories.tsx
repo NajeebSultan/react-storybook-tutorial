@@ -17,7 +17,9 @@ export const Primary: Story = {
   {
     variant: 'primary',
     size: 'md',
-    
 
+  },
+  render: (args) => {
+    return <Button{...args}>Test</Button>;
   }
 }
