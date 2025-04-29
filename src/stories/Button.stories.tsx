@@ -14,7 +14,13 @@ const meta : Meta<StoryProps> = {
       options:['primary', 'secondary'],
       control:{
         type : 'select',
-      }
+      },
+    },
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'select',
+      },
     }
   },
 };
