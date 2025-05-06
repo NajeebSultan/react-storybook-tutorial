@@ -3,7 +3,7 @@
 ###  1. Navbar Component
 This screenshot shows the responsive navigation bar with theme switcher and active route highlighting.
 
-![Navbar Screenshot](assets/navbar.png)
+![Description](assets/navbar.png)
 
 
 ###  2. OTP Verification Component
@@ -31,7 +31,6 @@ Reusable button component with support for variants (primary, secondary), loadin
 
 ![Button Screenshot](assets/button.png)
 
----
 
 ###  6. Stack Component
 A layout utility component to easily stack and space elements vertically or horizontally using props.
