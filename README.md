@@ -3,7 +3,7 @@
 ###  1. Navbar Component
 This screenshot shows the responsive navigation bar with theme switcher and active route highlighting.
 
-![Description](assets/navbar.png)
+![](assets/navbar.png)
 
 ###  2. OTP Verification Component
 This component allows users to enter a 4-digit OTP code with auto-focus and error handling.
