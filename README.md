@@ -1,4 +1,4 @@
-## 📸 Screenshots
+##  React Storybook Components
 
 ###  1. Navbar Component
 This screenshot shows the responsive navigation bar with theme switcher and active route highlighting.
