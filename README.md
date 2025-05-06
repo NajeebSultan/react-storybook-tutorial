@@ -4,11 +4,6 @@
 This screenshot shows the responsive navigation bar with theme switcher and active route highlighting.
 
 ![Description](assets/navbar.png)
-Ensure that the `assets` folder is in the same directory as your `README.md` file. If the folder structure is correct and the images still don't show, you can add a note to clarify the relative path:
-
-```markdown
-> **Note:** Ensure the `assets` folder is in the same directory as this `README.md` file for the images to display correctly.
-```
 
 ###  2. OTP Verification Component
 This component allows users to enter a 4-digit OTP code with auto-focus and error handling.
